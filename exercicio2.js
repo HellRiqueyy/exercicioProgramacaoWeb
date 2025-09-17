@@ -43,3 +43,16 @@ if(idade <=12){
 }else{
     console.log("Preço do ingresso: "+ingresso)
 }
+
+
+//Exercicio 3
+
+let idadeVoto = 17;
+
+if(idadeVoto < 16){
+    console.log("Não pode votar!")
+}else if(idadeVoto == 16 || idadeVoto == 17 || idadeVoto >= 70){
+    console.log("Voto opcional!")
+}else{
+    console.log("Voto Obrigatório")
+}
