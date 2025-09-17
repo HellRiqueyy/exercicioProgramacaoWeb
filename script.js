@@ -11,11 +11,16 @@ console.log("Real para Dolar: " + (DOLAR / real).toLocaleString('en-US', { style
 //Exercicio 2
 
 let idade = 20
-let cartao = true;
-let responsavel = true;
+let cartao = false;
+let responsavel = false;
 
 if ((idade >= 18 && cartao) || responsavel) {
     console.log("Entrada permitida!")
 } else {
     console.log("Entrada negada!")
 }
+
+//exercicion 3
+
+let nota = 7.9 >= 6 ? "Aprovado" : "Reprovado";
+console.log(nota)
